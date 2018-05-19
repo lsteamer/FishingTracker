@@ -12,4 +12,15 @@ public class MainPresenter implements MainContract.Presenter{
         mvpView = view;
 
     }
+
+    /// Presenter methods ///
+    @Override
+    public void handleSignInButtonClick() {
+
+    }
+
+    @Override
+    public void handleSignUpButtonClick() {
+
+    }
 }

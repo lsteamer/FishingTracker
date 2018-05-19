@@ -19,4 +19,15 @@ public class MainActivity extends AppCompatActivity implements MainContract.MvpV
 
         mainPresenter = new MainPresenter(this);
     }
+
+    /// MvpView methods ///
+    @Override
+    public void showSignInScreen() {
+
+    }
+
+    @Override
+    public void showSignUpScreen() {
+
+    }
 }
