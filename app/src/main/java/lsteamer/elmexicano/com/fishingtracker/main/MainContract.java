@@ -9,7 +9,6 @@ public interface MainContract {
         void showSignInScreen();
 
         void showSignUpScreen();
-
     }
 
     interface Presenter {
